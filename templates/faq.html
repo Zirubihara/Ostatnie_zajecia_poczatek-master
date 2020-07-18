@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %} Sekcja pytań {% endblock title %}
+
+{% block content %}
+    <div class="container mt-4">
+        <h2 class="text-center"> Najczęściej zadawane pytania </h2>
+
+        <div class="accordion mt-3" id="faq">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0 text-center">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Pytanie 1
+                        </button>
+                    </h2>
+                </div>
+                <div class="collapse show" id="collapseOne" aria-labelledby="headingOne" data-parent="#faq">
+                    <div class="card-body">
+                        Odpowiedz OdpowiedzOdpowiedzOdpowiedzOdpowiedzOdpowiedzOdpowiedzOdpowiedzOdpowiedzOdpowiedzOdpowiedzOdpowiedzOdpowiedz
+                        OdpowiedzOdpowiedzOdpowiedzOdpowiedzOdpowiedzOdpowiedzOdpowiedzOdpowiedzOdpowiedzOdpowiedzOdpowiedz
+                        OdpowiedzOdpowiedzOdpowiedzOdpowiedzOdpowiedzOdpowiedz
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+{% endblock content %}
